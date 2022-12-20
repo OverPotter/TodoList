@@ -1,0 +1,147 @@
+/* common styles */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    /*align-items: center;*/
+    justify-content: center;
+    background: linear-gradient(rgba(195, 30, 220, 0.56), rgba(240, 0, 0, 0));
+    font-family: sans-serif;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #8ae019;
+}
+
+ul {
+    list-style-type: none;
+    /* get rid of bullet points on side of list items */
+}
+/* common style ends */
+
+/* container */
+.container {
+    min-width: 750px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+h1 {
+    color: #ffffff;
+    font-size: 3rem;
+}
+
+/* todo-form */
+.todo-form {
+    width: 800px;
+    margin: 30px;
+}
+
+.todo-input, .todo-search {
+    width: 150px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 1rem;
+}
+
+.task-counter {
+    padding: 10px;
+}
+
+.add-button, .delete-all-button, .delete-last-button,
+.show-todo-button, .show-completed-button {
+    width: 20%;
+    background-color: #0050ff;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 7px;
+    font-size: 1.2rem;
+}
+/* todo-form style ends */
+
+/* todo-items */
+.todo-items {
+    min-width: 500px;
+}
+
+/* each li with class="item" */
+.item {
+    background-color: #ffffff;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    font-size: 1.1rem;
+}
+
+.item:first-child {
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+
+.item:last-child {
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+
+/* item style end */
+
+.checkbox {
+    margin-right: 10px;
+}
+
+.delete-button {
+    float: right;
+    background-color: #dc143c;
+    border: none;
+    outline: none;
+    border-radius: 7px;
+    padding: 2px 5px;
+    margin-left: 10px;
+    font-size: 1.1rem;
+    font-weight: 550;
+}
+
+/*applied when the todo item is checked */
+.checked {
+    text-decoration: line-through;
+    background-color: rgba(240, 0, 0, 0);
+}
+
+/* todo-items style ends */
+/* container style ends */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
